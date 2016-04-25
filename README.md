@@ -1,2 +1,3 @@
-# eulerapps
-Project Euler's solutions packaged and delivered as web apps in Django
+## Project for Web App in Django for Project Euler
+
+The solutions to ProjectEuler's problems are delivered as web apps in Django.
