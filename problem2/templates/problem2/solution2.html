@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load widget_tweaks %}
 
 {% block title %}
 Problem 2 App
@@ -19,19 +20,25 @@ Question of Problem 2
         <br>
         <br> By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
         <br>
-        <br>Extending from there, create an app that can take in an input field for the limit and output the sum of even-valued Fibonacci sequence.</p>
+        <br>Extending from there, create an app that can take in an input field for the limit and output the sum of even-valued Fibonacci sequence.
+    </p>
 </div>
 
 <div class="w-container home-container problem2-question">
     <div class="w-form problem2-form">
         <form action="/problem2/" method="POST">
             {% csrf_token %}
-            {{ form }}
-            <input type="submit" value="Submit" />
+            <p>
+                Value Limit:
+            </p>
+            {{ form.value_limit|add_class:"w-input text-field" }}
+            <input type="submit" value="Calculate Even Sum" class="w-button problem2-submit" />
         </form>
     </div>
 
     <div class="solution">{{ evensum }}</div>
 </div>
+
+
 
 {% endblock %}

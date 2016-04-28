@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'problem2',
     'home',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE_CLASSES = [
