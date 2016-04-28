@@ -1,4 +1,6 @@
-from django.conf.urls import include, url
+"""Urls of problem2 app."""
+
+from django.conf.urls import url
 from . import views
 
 urlpatterns = [
