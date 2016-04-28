@@ -1,0 +1,25 @@
+.home-h1 {
+  text-align: center;
+}
+
+.home-button1 {
+  text-align: left;
+}
+
+.home-container {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.home-container.home-footer {
+  text-align: left;
+}
+
+.home-container.heading {
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.home-container.problem2-question {
+  text-align: left;
+}
