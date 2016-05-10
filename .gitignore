@@ -61,9 +61,10 @@
 **/log/
 **/.log/
 **/*.pot
-**/local_settings.py
 **/db.sqlite3
 **/media/
+local_settings.py
+
 
 ### Vagrant Directory###
 .vagrant/
